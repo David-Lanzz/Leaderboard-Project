@@ -1,4 +1,4 @@
-//all methods
+// all methods
 export default class List {
  static collectData = async () => {
    const apiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/aLClGDcTWQXMdvIfHD7d/scores/';
