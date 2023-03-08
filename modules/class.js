@@ -17,11 +17,13 @@ export default class List {
         i += 1;
         element.index = i + 1;
         if (element.index % 2 === 0) {
-          element.background = '#bdbaba';
+          element.background = '#919090';
+          element.color = '#fff';
         } else {
           element.background = '#fff';
+          element.color = '#5e5c5c';
         }
-        output += `<li style='background-color:${element.background}' class='listitem'>
+        output += `<li style='background-color: ${element.background}; color: ${element.color};' class='listitem'>
             ${`${element.user}: ${element.score}`}</li>`;
       });
       return output;
@@ -42,5 +44,21 @@ export default class List {
       dataFromAPI.then((result) => result);
       document.querySelector('#name').value = '';
       document.querySelector('#score').value = '';
+    }
+
+    static createGame = async () => {
+      const apiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+      const fetchData = fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: 'A brand new game',
+        }),
+      });
+      const test = await fetchData;
+      const newGame = test.json();
+      newGame.then((res) => res.result);
     }
 }

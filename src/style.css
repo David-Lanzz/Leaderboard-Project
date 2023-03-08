@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #333;
 }
 
 header {
@@ -57,9 +65,11 @@ h2 {
 #submit {
   margin-left: auto;
   border: #333 solid 2px;
-  background-color: #fff;
+  background-color: #333;
   padding: 0 1rem;
   border-radius: 3px;
+  color: #fff;
+  box-shadow: 0 0 5px 5px;
 }
 
 .inputSection {
@@ -85,6 +95,9 @@ input {
 .inputSection input {
   border: #333 solid 1px;
   height: 2rem;
+  background-color: darkslategray;
+  padding: 5px;
+  color: #ebe3e3;
 }
 
 li {
@@ -96,6 +109,15 @@ li {
   height: 1.5rem;
   width: 100%;
   font-size: 14px;
+}
+
+.scoresSection {
+  box-shadow: 0 0 7px 7px #6b6a6a;
+}
+
+button {
+  color: #333;
+  background: #333;
 }
 
 @media screen and (max-width: 768px) {
