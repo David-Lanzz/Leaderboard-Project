@@ -9,7 +9,9 @@
 }
 
 body {
-  background-color: #333;
+  background-image: url('../images/blue\ background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -56,7 +58,7 @@ h2 {
 }
 
 .scoresList {
-  border: 2px solid black;
+  border: 2px solid #fff;
   min-height: 2rem;
   width: 100%;
 }
@@ -64,12 +66,12 @@ h2 {
 #refresh,
 #submit {
   margin-left: auto;
-  border: #333 solid 2px;
-  background-color: #333;
+  border: aliceblue solid 2px;
+  background-color: #2182dd;
   padding: 0 1rem;
   border-radius: 3px;
   color: #fff;
-  box-shadow: 0 0 5px 5px;
+  box-shadow: 0 0 1px 1px;
 }
 
 .inputSection {
@@ -93,11 +95,11 @@ input {
 }
 
 .inputSection input {
-  border: #333 solid 1px;
+  border: solid 3px #fff;
   height: 2rem;
-  background-color: darkslategray;
+  background-color: rgb(38, 150, 241);
   padding: 5px;
-  color: #ebe3e3;
+  color: #fff;
 }
 
 li {
@@ -112,7 +114,9 @@ li {
 }
 
 .scoresSection {
-  box-shadow: 0 0 7px 7px #6b6a6a;
+  border: solid 5px #fff;
+  border-radius: 5px;
+  background: url('../images/blue\ background.jpg');
 }
 
 button {
