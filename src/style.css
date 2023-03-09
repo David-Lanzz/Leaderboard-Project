@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url('../images/blue\ background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -48,7 +58,7 @@ h2 {
 }
 
 .scoresList {
-  border: 2px solid black;
+  border: 2px solid #fff;
   min-height: 2rem;
   width: 100%;
 }
@@ -56,10 +66,12 @@ h2 {
 #refresh,
 #submit {
   margin-left: auto;
-  border: #333 solid 2px;
-  background-color: #fff;
+  border: aliceblue solid 2px;
+  background-color: #2182dd;
   padding: 0 1rem;
   border-radius: 3px;
+  color: #fff;
+  box-shadow: 0 0 1px 1px;
 }
 
 .inputSection {
@@ -83,8 +95,11 @@ input {
 }
 
 .inputSection input {
-  border: #333 solid 1px;
+  border: solid 3px #fff;
   height: 2rem;
+  background-color: rgb(38, 150, 241);
+  padding: 5px;
+  color: #fff;
 }
 
 li {
@@ -96,6 +111,17 @@ li {
   height: 1.5rem;
   width: 100%;
   font-size: 14px;
+}
+
+.scoresSection {
+  border: solid 5px #fff;
+  border-radius: 5px;
+  background: url('../images/blue\ background.jpg');
+}
+
+button {
+  color: #333;
+  background: #333;
 }
 
 @media screen and (max-width: 768px) {
