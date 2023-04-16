@@ -26,7 +26,8 @@ main {
 
 main,
 .ssheader,
-.inputSection,li {
+.inputSection,
+li {
   display: flex;
   padding: 0 10%;
 }
@@ -69,22 +70,24 @@ h2 {
 #submit {
   margin-left: auto;
   border: aliceblue solid 2px;
-  background-color: #615353 ;
+  background-color: #615353;
   padding: 0 1rem;
   border-radius: 3px;
   color: #fff;
   box-shadow: 0 0 1px 1px;
 }
+
 #refresh:hover {
   animation: grow 0.5s linear;
 }
 
 @keyframes grow {
   from {
-    width: 4rem  ;
+    width: 4rem;
   }
+
   100% {
-width: 5rem;
+    width: 5rem;
   }
 }
 
@@ -115,6 +118,7 @@ input {
   padding: 5px;
   color: #615353;
 }
+
 .inputSection input::placeholder {
   color: #615353;
 }
