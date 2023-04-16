@@ -17,10 +17,10 @@ export default class List {
         i += 1;
         element.index = i + 1;
         if (element.index % 2 === 0) {
-          element.background = 'rgb(42, 72, 245)';
+          element.background = '#615353';
           element.color = '#fff';
         } else {
-          element.background = '#fff';
+          element.background = '#f0f0f0';
           element.color = '#333';
         }
         output += `<li style='background-color: ${element.background}; color: ${element.color};' class='listitem'>
