@@ -197,7 +197,7 @@ and npx hint . for HTML
 
 - **How did you align the elements to stack on or beside eachother**
 
- - Use flex or grid boxes
+ - Use css flex or grid boxes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
