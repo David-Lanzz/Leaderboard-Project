@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+<img src="./images/logo/myLogo.png" alt="logo">
 
 # 📗 Table of Contents
 
@@ -26,9 +27,11 @@
 # 📖 [LEADERBOARD-PROJECT] <a name="about-project"></a>
 
 > 
-**Leaderboard-Project** is a project i worked to help clients all around the world set goals according to priority.
+**Leaderboard-Project** is a project i worked to help clients store scores acquired in a game in an external API for future reference.
 
-## 🛠 Built With <a name="built-with">Visual Studio Code and Github</a>
+## 🛠 Built With <a name="built-with">
+> Visual Studio Code
+> GitHub
 
 ### Tech Stack <a name="tech-stack">Frontend Technology</a>
 
@@ -48,9 +51,9 @@
   </ul>
 </details>
 <details>
-  <summary>Mark-Up Language</summary>
+  <summary>JavaScript</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://cdnjs.com/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -60,6 +63,7 @@
 - **[Fresh quality content]**
 - **[Speed and responsive]**
 - **[Easy to use]**
+- **[Adding of scores to an external API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,21 +78,25 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> All necessary files about the Leaderboard Project are present in the repo so run/install it and check through for any information you might need
+- git clone https://github.com/David-Lanzz/Leaderboard-Project.git
+- cd my-project
+- npm install
 ### Prerequisites
 
 
 In order to run this project you need:
 A browser
 A good internet connection
-
+Visual Studio Code[OPTIONAL]
 
 ### Setup
 
 Clone this repository to your desired folder:
-
+- git clone https://github.com/David-Lanzz/Leaderboard-Project.git
 - cd my-project
-  - git clone https://github.com/David-Lanzz/Leaderboard-Project.git
+- npm install
+- npm start
+
 ### Install
 
 Install this project with:
@@ -99,7 +107,10 @@ Install this project with:
 ### Usage
 
 
-To run the project, Click on the live Demo link
+To run the project, Click on the live Demo link or...
+- clone the project
+- install all dependencies
+- run npm start in the terminal
 
 ### Run tests
 
@@ -130,7 +141,7 @@ githack and github pages
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/David-Lanzz)
-- Twitter: [@twitterhandle](@LanzzDavid)
+- Twitter: [@twitterhandle](https://www.linkedin.com/in/david-lanzz/)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/lanzz-david-378b9a250)
 
 👤
@@ -141,7 +152,7 @@ githack and github pages
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[A feature that allows users drag and drop tasks to desired position]**
+- [ ] **[A feature that allows users create new game leaderboads]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +179,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > 
-I will like to give kudos to microverse for assigning the creation of this project to me.
+I will like to give kudos to Microverse for assigning the creation of this project to me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
